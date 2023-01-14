@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <h3>This is your dashboard</h3>
+    {% if user.is_authenticated %}
+    <h3>Welcome Home Sir You Logged in Succesfully...</h3>
+    <h3>We update You as soon as possible....</h3>
+    <a href="{% url 'logout' %}">Logout</a>
+    {% endif %}
+    
+    
+</body>
+</html>
