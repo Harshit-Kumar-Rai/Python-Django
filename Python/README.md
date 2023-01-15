@@ -1,2 +1,3 @@
-Added CRUD Operation
-Added Login Page 
+
+- Added CRUD Operation
+- Added Login Page 
